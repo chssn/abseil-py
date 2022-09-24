@@ -24,8 +24,8 @@ except ImportError:
   use_setuptools()
   import setuptools
 
-if sys.version_info < (3, 6):
-  raise RuntimeError('Python version 3.6+ is required.')
+#if sys.version_info < (3, 6):
+#  raise RuntimeError('Python version 3.6+ is required.')
 
 setuptools_version = tuple(
     int(x) for x in setuptools.__version__.split('.')[:2])
